@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+    <EditText
+        android:text="@string/adminFirst"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:layout_marginTop="0dp"
+        android:gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:id="@+id/requestSearch"
+        android:drawableRight="@mipmap/search"/>
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.26">
+ <!--       <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="#ffd9d9d9"
+            card_view:cardCornerRadius="2dp"
+            android:layout_margin="6dp"
+            card_view:cardElevation="6dp">
+            <Button android:id="@+id/gopending_btn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:layout_height="match_parent"
+
+                android:paddingTop="8.5dp"
+                android:paddingBottom="8.5dp"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:textColor="#de000000"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/gopending" />
+
+        </android.support.v7.widget.CardView>-->
+
+  <Button
+            android:text="@string/gopending"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:id="@+id/gopending_btn"
+  />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:text="@string/berejected"
+            android:id="@+id/berejected"
+ />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.26"
+>
+        <Button
+
+            android:text="@string/beapproved"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:id="@+id/beapproved"
+            />
+
+
+        <Button
+            android:text="Report"
+            android:layout_height="match_parent"
+            android:id="@+id/graphReport"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.26"
+>
+        <Button
+            android:text="Pickup"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:id="@+id/pickup"
+            />
+
+
+        <Button
+            android:text="No Show"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:id="@+id/NoShowList"
+ />
+    </LinearLayout>
+
+
+</LinearLayout>

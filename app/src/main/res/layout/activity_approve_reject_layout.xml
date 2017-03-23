@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="@string/request_ID"
+        android:ems="10"
+        android:id="@+id/Request_ID"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="@string/request"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Request_Detail"
+        android:layout_weight="0.87"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginTop="16dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:id="@+id/radiostatus"
+            android:layout_width="wrap_content"
+            android:layout_height="106dp" >
+
+            <RadioButton
+                android:id="@+id/approved_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/approve_title"
+                android:checked="true"
+                />
+
+            <RadioButton
+                android:id="@+id/reject_radio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rejected_title" />
+
+        </RadioGroup>
+
+
+</LinearLayout>
+
+    <!--<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="116dp"
+        android:weightSum="1"
+        android:paddingRight="50dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="30dp">-->
+
+    <Button
+        android:text="@string/next_btn"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/next_button"
+        android:elevation="0dp"
+        android:layout_marginLeft="200dp" />
+    <!--  </LinearLayout>-->
+
+</LinearLayout>

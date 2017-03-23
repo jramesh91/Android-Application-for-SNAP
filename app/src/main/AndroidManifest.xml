@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="teamj.application.appforsnaptest">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--<uses-sdk android:targetSdkVersion="2"--> />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/car_logo"
+        android:label="@string/app_name"
+        android:logo="@drawable/car_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SNAPActivity"></activity>
+        <activity android:name=".BookingActivity"></activity>
+        <activity android:name=".CancelActivity"></activity>
+        <activity android:name=".AdminActivity"></activity>
+        <activity android:name=".RequestStatus"></activity>
+        <activity android:name=".PendingRequestActivity"></activity>
+        <activity android:name=".RejectedRequestActivity"></activity>
+        <activity android:name=".ApprovedRequestList"></activity>
+        <activity android:name=".ApproveRejectRequest"></activity>
+        <activity android:name=".AssignDriver"
+            android:label="@string/AssignDrivers">
+
+        </activity>
+        <activity android:name=".DriverFirstActivity"></activity>
+        <activity android:name=".PickupActivity"></activity>
+        <activity android:name=".UserRequestList"></activity>
+        <activity android:name=".RejectARequest"></activity>
+        <activity android:name=".PickedupListActivity"></activity>
+        <activity android:name=".NoShowListActivity"></activity>
+
+    </application>
+
+</manifest>

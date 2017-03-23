@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:weightSum="3"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF">
+
+
+
+
+    <TextView
+        android:text="Request ID"
+        android:layout_width="0dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:id="@+id/Request_ID"
+        android:gravity="left"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="Source"
+        android:layout_width="0dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:id="@+id/Request_Source"
+        android:gravity="left"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="Destination"
+        android:layout_width="0dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:id="@+id/Request_Dest"
+        android:layout_weight="1"
+        android:gravity="left"/>
+</LinearLayout>
+    </LinearLayout>

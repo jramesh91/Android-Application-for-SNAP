@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">SNAPP</string>
+    <string name="AssignDrivers">Assign Driver</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">User ID</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Are you sure?</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">Are you sure?</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="goback_btn">Back</string>
+    <string name="confirm_btn">Confirm</string>
+    <string name="driver3_checkout">Driver 3</string>
+    <string name="assign_title">Assign Driver</string>
+    <string name="driver_title">Available Drivers</string>
+    <string name="approve_title">Approve Request</string>
+    <string name="rejected_title">Reject Request</string>
+    <string name="reason_text">Reason for Rejecting</string>
+    <string name="request">Request</string>
+    <string name="adminFirst">Search for a request</string>
+    <string name="gopending">Pending Requests</string>
+    <string name="beapproved">Approved Requests</string>
+    <string name="berejected">Rejected Requests</string>
+    <string name="reject_reason">Invalid Address</string>
+    <string name="request_ID"> Request ID</string>
+    <string name="next_btn"> Next</string>
+    <string name="Driver1">Rajni</string>
+    <string name="Driver2">Salman</string>
+    <string name="Driver3">Hirithik</string>
+    <string name="Pickup_Title">Picked Up</string>
+    <string name="NoShow_Title">No Show</string>
+    <string name="DeafultPassenger">No Show</string>DeafultPassenger
+
+    <string-array name="number_of_passengers">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+
+    </string-array>
+
+
+
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="checkout_btn">Check Out</string>
+    <string name="return_btn">Return</string>
+    <string name="cancel_btn">Booking History</string>
+    <string name="date">Date</string>
+    <string name="bookID">Book ID</string>
+    <string name="studentID">Student ID</string>
+    <string name="go_book_btn">New Booking</string>
+    <string name="Logout">Logout</string>
+</resources>
